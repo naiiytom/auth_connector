@@ -27,6 +27,10 @@ type WebUser struct {
 	IsAdmin  string `json:"admin"`
 }
 
+type RefreshToken struct {
+	RefreshToken string `json:"refresh_token"`
+}
+
 type NewUser struct {
 	Name     string `json:"name" validate:"required"`
 	Email    string `json:"email" validate:"required"`
