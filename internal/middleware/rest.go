@@ -6,16 +6,17 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/naiiytom/auth_connector/config"
 	"github.com/naiiytom/auth_connector/internal/user"
 
 	"github.com/Nerzal/gocloak/v8"
 )
 
 var (
-	realm         = "aigen"
-	client_name   = "aigen-client"
-	client_secret = "8dfddd7c-00dc-44d9-b437-723c9c84118f"
-	client        = gocloak.NewClient("http://192.168.1.99:8080")
+	realm         = config.KeycloakRealm
+	client_name   = config.KeycloakClientID
+	client_secret = config.KeycloakClientSecret
+	client        = gocloak.NewClient(config.KeycloakHost)
 )
 
 func Authenticate(w http.ResponseWriter, r *http.Request) {
