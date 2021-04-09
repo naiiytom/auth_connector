@@ -36,3 +36,5 @@ deps:
 cross:
 	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 $(GOBUILD) -o ./build/$(BINARY_NAME) -tags=jsoniter -v ./
 
+docker:
+	./docker_build.sh && ./docker_run.sh

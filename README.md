@@ -4,7 +4,7 @@ A Golang issuer backend for for communicating with Keycloak Authentication servi
 
 ## Deployment
 
-Change environment variables in `example.env` and then rename the file to `.env` by executing bash command `mv example.enx .env`
+Change environment variables in `env-file`
 
 Deploy using docker using command to build docker image
 

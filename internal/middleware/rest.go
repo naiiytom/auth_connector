@@ -65,3 +65,8 @@ func RefreshToken(w http.ResponseWriter, r *http.Request) {
 		json.NewEncoder(w).Encode(token)
 	}
 }
+
+// func UpdatePassword(w http.ResponseWriter, r *http.Request) {
+// 	w.Header().Set("Content-Type", "application/json")
+	
+// }

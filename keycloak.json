@@ -1,0 +1,13 @@
+{
+  "realm": "aigen",
+  "auth-server-url": "http://localhost:8080/auth/",
+  "ssl-required": "external",
+  "resource": "aigen-client",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "8dfddd7c-00dc-44d9-b437-723c9c84118f"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0,
+  "policy-enforcer": {}
+}
