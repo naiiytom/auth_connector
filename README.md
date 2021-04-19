@@ -2,6 +2,8 @@
 
 A Golang issuer backend for for communicating with Keycloak Authentication service
 
+----
+
 ## Deployment
 
 Change environment variables in `env-file`
@@ -12,7 +14,9 @@ Deploy using docker using command to build docker image
 
 Then run command
 
-    docker run -itd --name auth-middleware -p 5000:5000 --restart=unless-stopped auth-middleware
+    docker run -itd --name auth-middleware -p 5000:5000 --env-file=env-file --restart=unless-stopped auth-middleware
+
+----
 
 ## Environment variables
 
