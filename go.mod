@@ -15,5 +15,5 @@ require (
 	github.com/go-resty/resty/v2 v2.3.0 // indirect
 	github.com/google/go-cmp v0.5.5 // indirect
 	github.com/segmentio/ksuid v1.0.3 // indirect
-	golang.org/x/net v0.10.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
 )
