@@ -8,7 +8,7 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/pkg/errors v0.9.1
 	github.com/rs/cors v1.7.0
-	golang.org/x/crypto v0.45.0
+	golang.org/x/crypto v0.51.0
 	gopkg.in/square/go-jose.v2 v2.5.1
 )
 
@@ -17,5 +17,5 @@ require (
 	github.com/go-resty/resty/v2 v2.3.0 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/segmentio/ksuid v1.0.3 // indirect
-	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
 )
